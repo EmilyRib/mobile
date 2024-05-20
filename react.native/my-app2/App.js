@@ -4,7 +4,17 @@ import { StyleSheet, Text, View } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text style={styles.Text}>Emily 💗</Text>
+
+      <View style={styles.container2}>
+
+      <Text style={styles.Text}>Grupo 05</Text>
+
+      <Text></Text>
+      
+      <Text style={styles.Text2}>Emily</Text>
+
+    </View>
+
       <StatusBar style="auto" />
     </View>
   );
@@ -13,14 +23,31 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: 'lightblue',
+    backgroundColor: 'pink',
+    flexDirection:'column',
   },
+
+  container2: {
+    borderWidth: 2,
+    borderStyle: 'dashed',
+    borderColor: 'white',
+    alignItems: 'center',
+    },
 
   Text:{
     fontSize: '40rem',
     fontWeight: 'bold',
-  }
+    backgroundColor: 'lightyellow',
+    color:'lightblue',
+  },
+
+  Text2:{
+    fontSize: '30rem',
+    fontWeight: 'bold',
+    backgroundColor: 'lightblue',
+    color:'lightyellow',
+  },
+
 });
