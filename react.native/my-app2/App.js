@@ -1,7 +1,13 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import Com from './components/componente1';
+import { Um,Dois } from './components/componente2';
+
 
 export default function App() {
+
+  var varia = 'Yo mesma'
+
   return (
     <View style={styles.container}>
 
@@ -12,6 +18,18 @@ export default function App() {
       <Text></Text>
       
       <Text style={styles.Text2}>Emily</Text>
+
+      <Text></Text>
+
+      <Text style={styles.Text}>{varia}</Text>
+
+      <Text></Text>
+      
+    <Com/>
+
+    <Um/>
+
+    <Dois/>
 
     </View>
 
@@ -37,14 +55,14 @@ const styles = StyleSheet.create({
     },
 
   Text:{
-    fontSize: '40rem',
+    fontSize: 40,
     fontWeight: 'bold',
     backgroundColor: 'lightyellow',
     color:'lightblue',
   },
 
   Text2:{
-    fontSize: '30rem',
+    fontSize: 30,
     fontWeight: 'bold',
     backgroundColor: 'lightblue',
     color:'lightyellow',
