@@ -55,7 +55,7 @@ const styles = StyleSheet.create({
 
   container2: {
     borderWidth: 2,
-    borderStyle: 'dashed',
+    borderStyle: 'dotted',
     borderColor: 'white',
     alignItems: 'center',
     },
