@@ -2,6 +2,8 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 import Com from './components/componente1';
 import { Um,Dois } from './components/componente2';
+import Imagem from './components/imagem';
+import Botão from './components/button';
 
 
 export default function App() {
@@ -30,6 +32,10 @@ export default function App() {
     <Um/>
 
     <Dois/>
+
+    <Imagem />
+
+    <Botão/>
 
     </View>
 

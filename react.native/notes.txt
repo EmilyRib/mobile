@@ -1,0 +1,10 @@
+Nome de componente com letra Maiúscula.
+
+Criar pasta com expo:
+npx create-expo
+
+Button
+<Button
+title="Pressione"
+onPress={() => Alert.alert('Botão pressionado')}>
+</Button>
