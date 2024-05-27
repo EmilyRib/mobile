@@ -1,4 +1,4 @@
-import { View,Text,Button,Alert } from "react-native"
+import { View,Button,Alert } from "react-native"
 
 const ClickCounter = () => {
 
@@ -12,8 +12,6 @@ const ClickCounter = () => {
     return (
 
         <View>
-
-        <Text>Número de cliques:0 </Text>
 
             <Button
                 title="Pressione"
