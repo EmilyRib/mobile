@@ -1,10 +1,10 @@
-import { View, StyleSheet} from 'react-native';
+import { View, StyleSheet } from 'react-native';
 import Greeting from './components/props';
 
-const array = [{name:"Emily"},
-{name:"Py"},
-{name:"Mary"},
-{name:"Gaby"}]
+const array = [{ name: "Emily" },
+               { name: "Py" },
+               { name: "Mary" },
+               { name: "Gaby" }]
 
 export default function App() {
   return (
@@ -12,9 +12,9 @@ export default function App() {
 
       {array.map((ass) => (
 
-        <Greeting name={ass.name}/>
-        
-        ))}
+        <Greeting name={ass.name} />
+
+      ))}
 
     </View>
   );
