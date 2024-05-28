@@ -1,7 +1,5 @@
 import { StatusBar } from 'expo-status-bar';
-import { View, Text, StyleSheet} from 'react-native';
-import { CoxinhaQuantidade } from './components/CoxinhaItemComQuantidade'
-
+import { StyleSheet, Text, View } from 'react-native';
 
 export default function App() {
   return (
@@ -9,22 +7,29 @@ export default function App() {
 
       <StatusBar style="auto" />
 
-      <Text>Lista de Salgados</Text>
+      <Text>Emi</Text>
+      <Text></Text>
 
-      <CoxinhaQuantidade/>
+      <Text>Gaby</Text>
+      <Text></Text>
 
+      <Text>Hello World 👋 🌍!</Text>
+      <Text></Text>
+
+      <Text>Mary</Text>
+      <Text></Text>
+
+      <Text>Py</Text>
+      
     </View>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
-    margin:40,
     flex: 1,
-    backgroundColor: 'white',
+    backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
   },
 });
-
-
