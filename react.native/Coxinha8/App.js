@@ -19,16 +19,22 @@ export default function App() {
       preço={5}
       aoClicar={() => Alert.alert("Patel de Bauru com Pressable")}/>
 
+<Text></Text>
+
       <CoxinhaItemEstilo6
       nome="Frango com Requeijão"
       preço={5}
-      aoClicar={() => Alert.alert("Patel de Bauru com Pressable")}/>
+      aoClicar={() => Alert.alert("Patel com Requeijão com Pressable")}/>
+
+<Text></Text>
 
       <CoxinhaItemEstilo6
       nome="Calabresa"
       preço={7}
       originalPreço={8}
       aoClicar={() => Alert.alert("Patel de Calabresa com Pressable")}/>
+
+<Text></Text>
 
       <Button 
       title='Botão 1 alert'
@@ -39,7 +45,7 @@ export default function App() {
       <Button 
       title='Botão 2 alert'
       onPress={cliqueBoao}
-      color={"lightgreen"}/>
+      color={"green"}/>
 
     </View>
   );
@@ -50,6 +56,7 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
+    backgroundColor:'lightblue'
   },
 
   texto: {
